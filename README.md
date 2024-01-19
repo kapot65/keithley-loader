@@ -1,13 +1,13 @@
 попытка подключить Keihtley KUSB-488 к компьютеру
 
 ## Установка
-1. Драйвер (не уверен что нужен, т.к. у нас USB)
+1. Драйвер
 ```shell
 cd linux-gpib-4.3.6/linux-gpib-kernel-4.3.6
 make 
 sudo make install
 ```
-2. библиотека
+1. библиотека
 ```shell
 cd linux-gpib-4.3.6/linux-gpib-user-4.3.6
 ./configure
